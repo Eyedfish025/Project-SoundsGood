@@ -58,8 +58,8 @@
                         @endif
 
                         <form class="auth-form" id="loginFormElement" method="POST" action="{{ route('login.auth') }}">
-                            @csrf
-                            <div class="form-group">
+                             
+                           <div class="form-group">
                                 <label for="loginEmail" class="form-label">
                                     <i class="fas fa-envelope"></i> Email
                                 </label>
@@ -101,6 +101,7 @@
                         </div>
                         
                         <form id="FMCadastro_Usuario" method ="POST" action="{{ route('users.store') }}">
+                           @csrf 
                             <div class="form-group">
                                 <label for="registerName" class="form-label">
                                     <i class="fas fa-user"></i> Nome Completo
