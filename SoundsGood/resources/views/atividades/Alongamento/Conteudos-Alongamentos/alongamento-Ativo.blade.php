@@ -12,9 +12,7 @@
 <main class="container my-5 pt-5">
     <header class="text-center my-5 reveal">
         <h1 class="display-4 hero-title">Alongamento Ativo</h1>
-        <p class="lead text-white-50 hero-subtitle">
-            Prepare seu corpo com movimentos dinâmicos que alongam e aquecem os músculos de forma ativa.
-        </p>
+        <p class="lead text-white-50 hero-subtitle">Prepare seu corpo com movimentos dinâmicos que alongam e aquecem os músculos de forma ativa.</p>
     </header>
 
     <section class="exercise-section reveal">

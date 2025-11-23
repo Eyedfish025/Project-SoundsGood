@@ -58,18 +58,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1506126613408-4e652a27b2de?q=80&w=2070&auto=format&fit=crop"
-                         class="card-img-top" alt="Pessoa meditando em um ambiente sereno">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
-                       aria-label="Iniciar Meditação Guiada">
+                    <img src="https://images.unsplash.com/photo-1506126613408-4e652a27b2de?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pessoa meditando em um ambiente sereno">
+                    <a href="/meditacao-Guiada" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Meditação Guiada">
                        <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Meditação Guiada</h5>
-                    <p class="card-text">
-                        Deixe nossa narração suave te conduzir a um estado de relaxamento profundo e atenção plena.
-                    </p>
+                    <p class="card-text">Deixe nossa narração suave te conduzir a um estado de relaxamento profundo e atenção plena.</p>
                 </div>
             </div>
         </div>
@@ -78,18 +74,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1532094206412-4b14a4d3353c?q=80&w=1974&auto=format&fit=crop"
-                         class="card-img-top" alt="Silhueta de pessoa com fundo cósmico">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
-                       aria-label="Iniciar Controle corpo e alma">
+                    <img src="https://images.unsplash.com/photo-1532094206412-4b14a4d3353c?q=80&w=1974&auto=format&fit=crop" class="card-img-top" alt="Silhueta de pessoa com fundo cósmico">
+                    <a href="/meditacao-Controle-corpo-alma" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Controle corpo e alma">
                        <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Controle seu corpo e alma</h5>
-                    <p class="card-text">
-                        Uma jornada para conectar-se com seu eu interior, equilibrando mente, corpo e espírito.
-                    </p>
+                    <p class="card-text">Uma jornada para conectar-se com seu eu interior, equilibrando mente, corpo e espírito.</p>
                 </div>
             </div>
         </div>
@@ -98,18 +90,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1601779143932-090324b8a45b?q=80&w=2070&auto=format&fit=crop"
-                         class="card-img-top" alt="Pessoa sentada aprendendo a meditar">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
-                       aria-label="Iniciar Aprenda a meditar">
+                    <img src="https://images.unsplash.com/photo-1601779143932-090324b8a45b?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pessoa sentada aprendendo a meditar">
+                    <a href="/meditacao-Aprenda-Meditar" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Aprenda a meditar">
                        <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Aprenda a Meditar</h5>
-                    <p class="card-text">
-                        Sessões para iniciantes, ensinando os fundamentos da meditação e da atenção plena.
-                    </p>
+                    <p class="card-text">Sessões para iniciantes, ensinando os fundamentos da meditação e da atenção plena.</p>
                 </div>
             </div>
         </div>
@@ -118,18 +106,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1597938435279-29c3b943e235?q=80&w=2070&auto=format&fit=crop"
-                         class="card-img-top" alt="Pedras empilhadas simbolizando equilíbrio">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
-                       aria-label="Iniciar Mantenha a calma em 3 passos">
+                    <img src="https://images.unsplash.com/photo-1597938435279-29c3b943e235?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pedras empilhadas simbolizando equilíbrio">
+                    <a href="/meditacao-Mantenha-Calma-3-Passos" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Mantenha a calma em 3 passos">
                        <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Mantenha a Calma em 3 Passos</h5>
-                    <p class="card-text">
-                        Uma meditação rápida para momentos de estresse, restaurando a tranquilidade rapidamente.
-                    </p>
+                    <p class="card-text"> Uma meditação rápida para momentos de estresse, restaurando a tranquilidade rapidamente.</p>
                 </div>
             </div>
         </div>

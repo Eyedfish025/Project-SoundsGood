@@ -36,3 +36,13 @@ Route::get('/alongamento-Estatico', [AtividadesController::class, 'alongamento_E
 Route::get('/alongamento-Passivo', [AtividadesController::class, 'alongamento_Passivo'])->name('atividades.alongamento-Passivo');
 
 Route::get('/alongamento-Ativo', [AtividadesController::class, 'alongamento_Ativo'])->name('atividades.alongamento-Ativo');
+
+
+
+Route::get('/meditacao-Guiada', [AtividadesController::class, 'meditacao_Guiada'])->name('atividades.meditacao-Guiada');
+
+Route::get('/meditacao-Aprenda-Meditar', [AtividadesController::class, 'meditacao_Aprenda_Meditar'])->name('atividades.meditacao-Aprenda-Meditar');
+
+Route::get('/meditacao-Controle-corpo-alma', [AtividadesController::class, 'meditacao_Controle_corpo_alma'])->name('atividades.meditacao-Controle-corpo-alma');
+
+Route::get('/meditacao-Mantenha-Calma-3-Passos', [AtividadesController::class, 'meditacao_Mantenha_Calma_3_Passos'])->name('atividades.meditacao-Mantenha-Calma-3-Passos');

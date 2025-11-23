@@ -87,4 +87,30 @@ class AtividadesController extends Controller
         // Procura por: resources/views/atividades/Conteudos-Alongamentos/alongamento-Ativo.blade.php
         return view('atividades.Alongamento.Conteudos-Alongamentos.alongamento-Ativo');
     }
+
+
+
+    public function meditacao_Guiada()
+    {
+        // Procura por: resources/views/atividades/Conteudos-meditacao/Guiada.blade.php
+        return view('atividades.meditacao.Conteudos-meditacao.meditacao-Guiada');
+    }
+
+    public function meditacao_Aprenda_Meditar()
+    {
+        // Procura por: resources/views/atividades/Conteudos-meditacao/meditacao-Aprenda-Meditar.blade.php
+        return view('atividades.meditacao.Conteudos-meditacao.meditacao-Aprenda-Meditar');
+    }
+
+    public function meditacao_Controle_corpo_alma()
+    {
+        // Procura por: resources/views/atividades/Conteudos-meditacao/meditacao-Controle-corpo-alma.blade.php
+        return view('atividades.meditacao.Conteudos-meditacao.meditacao-Controle-corpo-alma');
+    }
+
+    public function meditacao_Mantenha_Calma_3_Passos()
+    {
+        // Procura por: resources/views/atividades/Conteudos-meditacao/meditacao-Mantenha-Calma-3-Passos.blade.php
+        return view('atividades.meditacao.Conteudos-meditacao.meditacao-Mantenha-Calma-3-Passos');
+    }
 }
