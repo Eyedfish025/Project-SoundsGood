@@ -58,11 +58,11 @@ const exerciseImageEl = document.getElementById('exerciseImage');
 const skipBtn = document.getElementById('skipBtn');
 
 const exercises = [
-    { name: 'Alongamento de Pescoço Assistido', duration: 25, image: 'https://i.pinimg.com/originals/7e/0a/44/7e0a442e2d6f8f93424fae2aa6d1f43a.gif' },
-    { name: 'Alongamento de Ombros com Apoio', duration: 25, image: 'https://i.pinimg.com/originals/5d/9b/8c/5d9b8c12f1d3f0a6e38b0ffb93b76f0a.gif' },
-    { name: 'Alongamento de Quadríceps Passivo', duration: 30, image: 'https://i.pinimg.com/originals/01/1e/44/011e44b2a5b1d2c1b8c3d0b5f8d1e2f4.gif' },
-    { name: 'Alongamento de Panturrilhas Passivo', duration: 30, image: 'https://i.pinimg.com/originals/6a/2c/8e/6a2c8e03b9f1b7d2c4b6f9a4d2b6c8e3.gif' },
-    { name: 'Alongamento de Costas com Suporte', duration: 35, image: 'https://i.pinimg.com/originals/2b/5c/6d/2b5c6d1e2a3b4c5f6a7d8e9f0b1c2d3e.gif' }
+    { name: 'Alongamento de Pescoço Assistido', duration: 25, image: 'public\img\Alongamento\alongamento passivo\pescoço.jpeg' },
+    { name: 'Alongamento de Ombros com Apoio', duration: 25, image: 'public\img\Alongamento\alongamento passivo\ombro.jpeg' },
+    { name: 'Alongamento de Quadríceps Passivo', duration: 30, image: 'public\img\Alongamento\alongamento passivo\quadricipes.jpeg' },
+    { name: 'Alongamento de Panturrilhas Passivo', duration: 30, image: 'public\img\Alongamento\alongamento passivo\panturilha.jpeg' },
+    { name: 'Alongamento de Costas com Suporte', duration: 35, image: 'public\img\Alongamento\alongamento passivo\costas.jpeg' }
 ];
 
 let isStretching = false;
@@ -131,3 +131,4 @@ function runExercise(exercise, next) {
 }
 </script>
 @endpush
+
