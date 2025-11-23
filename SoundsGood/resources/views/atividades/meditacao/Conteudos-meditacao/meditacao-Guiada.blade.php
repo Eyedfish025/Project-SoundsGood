@@ -19,7 +19,7 @@
 
     <section class="exercise-section reveal">
         <div class="exercise-image-container">
-            <img src="https://images.unsplash.com/photo-1506126613408-4e6578741663?q=80&w=870&auto=format&fit=crop"
+            <img src=""
                  alt="Ilustração de meditação" id="exerciseImage" class="exercise-image">
         </div>
         <div class="exercise-info">
@@ -77,12 +77,11 @@
     }
 
     const meditationSteps = [
-        { name: 'Acomode-se confortavelmente e feche os olhos.', duration: 20, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb214d2ZrdWl2eGZocHk2c3Z0a3RzZzBnaGZrb25meTBudjJzYjZpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPCSX4gnswYkO4w/giphy.gif' },
-        { name: 'Concentre-se na sua respiração. Sinta o ar entrar e sair.', duration: 45, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd254b2U4dGk4bGJ6Z25qYW5lM3VqYmY0N2ZtM2p6eGk0eGZlY2NqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/krP2NRkLqJEI/giphy.gif' },
-        { name: 'Observe seus pensamentos sem julgamento, deixando-os passar.', duration: 60, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1sc2I0eXNja2Q2eGZqZzZpMmt1b25iZzR0b3N5dG50b2JzZzRzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lKKXgs9q6Tj2s1daW8/giphy.gif' },
-        { name: 'Sinta a calma se espalhar por todo o seu corpo.', duration: 45, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2F5c3g0Z2Zkd2N1N2N0a3ZqZ3NqZzZqNnBuc2Q2cDZzNm5sNm5qZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C4ik1n1udg2wE/giphy.gif' },
-        { name: 'Gentilmente, traga sua atenção de volta ao ambiente.', duration: 20, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb214d2ZrdWl2eGZocHk2c3Z0a3RzZzBnaGZrb25meTBudjJzYjZpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPCSX4gnswYkO4w/giphy.gif' }
-    ];
+        { name: 'Acomode-se confortavelmente e feche os olhos.', duration: 20, image: 'public\img\meditação\controle o corpo\pessoa sentada.jpg' },
+        { name: 'Concentre-se na sua respiração. Sinta o ar entrar e sair.', duration: 45, image: 'public\img\meditação\aprenda a meditar\ar.jpg' },
+        { name: 'Observe seus pensamentos sem julgamento, deixando-os passar.', duration: 60, image: 'public\img\meditação\aprenda a meditar\mente distraida.jpg' },
+        { name: 'Sinta a calma se espalhar por todo o seu corpo.', duration: 45, image: 'public\img\meditação\controle o corpo\sinta a harmonia.jpg' },
+        { name: 'Gentilmente, traga sua atenção de volta ao ambiente.', duration: 20, image: 'public\img\meditação\controle o corpo\pessoa sentada.jpg' }
 
     let isMeditating = false, currentStepIndex = 0, countdownInterval, stepTimeout;
 
@@ -153,3 +152,4 @@
     }
 </script>
 @endpush
+

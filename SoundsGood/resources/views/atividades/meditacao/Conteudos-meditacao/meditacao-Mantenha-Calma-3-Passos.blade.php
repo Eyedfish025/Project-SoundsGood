@@ -63,9 +63,9 @@
     backgroundAudio.volume = 0.2;
 
     const steps = [
-        { name: 'Passo 1: Inspire profundamente pelo nariz', duration: 6, image: 'https://media.giphy.com/media/3o7TKsQ29vC3OJg4Dy/giphy.gif' },
-        { name: 'Passo 2: Segure a respiração por 4 segundos', duration: 4, image: 'https://media.giphy.com/media/l41YlRURhHSMaZxEA/giphy.gif' },
-        { name: 'Passo 3: Expire lentamente pela boca', duration: 6, image: 'https://media.giphy.com/media/xUPGcEliCc7bETyfO8/giphy.gif' }
+        { name: 'Passo 1: Inspire profundamente pelo nariz', duration: 6, image: 'public\img\meditação\mantenha a calma\inspire.jpg' },
+        { name: 'Passo 2: Segure a respiração por 4 segundos', duration: 4, image: 'public\img\meditação\controle o corpo\pessoa sentada.jpg' },
+        { name: 'Passo 3: Expire lentamente pela boca', duration: 6, image: 'public\img\meditação\mantenha a calma\soltando ar.jpg' }
     ];
 
     let isActive = false;
@@ -134,3 +134,4 @@
     }
 </script>
 @endpush
+

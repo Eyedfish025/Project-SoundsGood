@@ -58,8 +58,8 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1529334972162-914180a36279?q=80&w=2070&auto=format&fit=crop"
-                        class="card-img-top" alt="Pessoa relaxando na cama">
+                    <img src="public\img\respiração\respiração1.jpg"
+                        class="card-img-top" alt="Pessoa relaxando">
                     <a href="/respiracao/4-7-8" class="btn btn-cta btn-play stretched-link"aria-label="Iniciar Técnica 4-7-8">
                     <i class="fa-solid fa-play"></i>
                     </a>
@@ -77,7 +77,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1618423691270-0c6a87a63639?q=80&w=2070&auto=format&fit=crop"
+                    <img src="public\img\respiração\respiração 2.jpg"
                          class="card-img-top" alt="Pessoa com mão na barriga respirando">
                     <a href="/respiracao-Diafragmatica" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Diafragmática">
@@ -97,7 +97,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1597969984294-3f7a1f7c1b32?q=80&w=1974&auto=format&fit=crop"
+                    <img src="public\img\respiração\respiração 3.jpg"
                          class="card-img-top" alt="Mulher praticando pranayama">
                     <a href="/respiracao-Alternada-Nasal" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Alternada Nasal">
@@ -117,7 +117,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1591343395399-e835a39d136d?q=80&w=2070&auto=format&fit=crop"
+                    <img src="public\img\respiração\respiração 4.jpg"
                          class="card-img-top" alt="Formas geométricas simbolizando foco">
                     <a href="/respiracao-Quadrada" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Quadrada">
@@ -158,3 +158,4 @@
     reveal();
 </script>
 @endpush
+

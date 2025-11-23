@@ -57,11 +57,11 @@
     const skipBtn = document.getElementById('skipBtn');
 
     const exercises = [
-        { name: 'Rotação de Tronco', duration: 30, image: 'https://media.tenor.com/c4hEC_3wPikAAAAC/standing-trunk-rotations-exercise.gif' },
-        { name: 'Círculos com os Braços', duration: 30, image: 'https://media.tenor.com/dF1I49k12vYAAAAC/arm-circles-exercise.gif' },
-        { name: 'Balanço de Pernas (Frente)', duration: 30, image: 'https://i.pinimg.com/originals/26/6d/46/266d46987332f2b45b5315ce3d3333a6.gif' },
-        { name: 'Afundo com Rotação', duration: 40, image: 'https://i.pinimg.com/originals/44/5c/93/445c9335384d1a52436885e333203b9b.gif' },
-        { name: 'Agachamento', duration: 40, image: 'https://media.tenor.com/i-bSGO6IqEEAAAAC/squat-exercise.gif' }
+        { name: 'Rotação de Tronco', duration: 30, image: 'public\img\Alongamento\alongamento dinamico\coluna.jpeg' },
+        { name: 'Círculos com os Braços', duration: 30, image: 'public\img\Alongamento\alongamento dinamico\rotação de braços.jpeg' },
+        { name: 'Balanço de Pernas (Frente)', duration: 30, image: 'public\img\Alongamento\alongamento dinamico\chute.jpeg' },
+        { name: 'Afundo com Rotação', duration: 40, image: 'public\img\Alongamento\alongamento dinamico\afundo.jpeg' },
+        { name: 'Agachamento', duration: 40, image: 'public\img\Alongamento\alongamento dinamico\agachamento.jpeg' }
     ];
 
     let isStretching = false;
@@ -130,3 +130,4 @@
     }
 </script>
 @endpush
+

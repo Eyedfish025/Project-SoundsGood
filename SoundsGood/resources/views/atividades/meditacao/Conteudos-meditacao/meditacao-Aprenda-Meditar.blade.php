@@ -19,7 +19,7 @@
 
     <section class="exercise-section reveal">
         <div class="exercise-image-container">
-            <img src="https://images.unsplash.com/photo-1506126613408-4e6578741663?q=80&w=870&auto=format&fit=crop"
+            <img src="public\img\meditação\aprenda.jpg"
                  alt="Ilustração de meditação" id="exerciseImage" class="exercise-image">
         </div>
         <div class="exercise-info">
@@ -86,11 +86,11 @@
         }
 
         const meditationSteps = [
-            { name: 'Passo 1: Encontre uma posição confortável, com a coluna ereta, e feche os olhos suavemente.', duration: 30, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb214d2ZrdWl2eGZocHk2c3Z0a3RzZzBnaGZrb25meTBudjJzYjZpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPCSX4gnswYkO4w/giphy.gif' },
-            { name: 'Passo 2: Leve sua atenção para a respiração. Apenas observe o ar entrando e saindo, sem forçar.', duration: 60, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd254b2U4dGk4bGJ6Z25qYW5lM3VqYmY0N2ZtM2p6eGk0eGZlY2NqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/krP2NRkLqJEI/giphy.gif' },
-            { name: 'Passo 3: Sua mente vai se distrair. É normal. Quando perceber, gentilmente traga o foco de volta para a respiração.', duration: 75, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1sc2I0eXNja2Q2eGZqZzZpMmt1b25iZzR0b3N5dG50b2JzZzRzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lKKXgs9q6Tj2s1daW8/giphy.gif' },
-            { name: 'Passo 4: Permaneça nesse ciclo de observar a respiração e retornar o foco sempre que se distrair.', duration: 60, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2F5c3g0Z2Zkd2N1N2N0a3ZqZ3NqZzZqNnBuc2Q2cDZzNm5sNm5qZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C4ik1n1udg2wE/giphy.gif' },
-            { name: 'Parabéns por completar sua prática. Abra os olhos lentamente quando estiver pronto.', duration: 20, image: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb214d2ZrdWl2eGZocHk2c3Z0a3RzZzBnaGZrb25meTBudjJzYjZpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPCSX4gnswYkO4w/giphy.gif' }
+            { name: 'Passo 1: Encontre uma posição confortável, com a coluna ereta, e feche os olhos suavemente.', duration: 30, image: 'public\img\meditação\aprenda a meditar\olhos fechados.jpg' },
+            { name: 'Passo 2: Leve sua atenção para a respiração. Apenas observe o ar entrando e saindo, sem forçar.', duration: 60, image: 'public\img\meditação\aprenda a meditar\ar.jpg' },
+            { name: 'Passo 3: Sua mente vai se distrair. É normal. Quando perceber, gentilmente traga o foco de volta para a respiração.', duration: 75, image: 'public\img\meditação\aprenda a meditar\mente distraida.jpg' },
+            { name: 'Passo 4: Permaneça nesse ciclo de observar a respiração e retornar o foco sempre que se distrair.', duration: 60, image: 'public\img\meditação\aprenda a meditar\CICLO.jpg' },
+            { name: 'Parabéns por completar sua prática. Abra os olhos lentamente quando estiver pronto.', duration: 20, image: 'public\img\meditação\aprenda a meditar\parabens.jpg' }
         ];
 
         let isMeditating = false;
@@ -167,3 +167,4 @@
         }
     </script>
 @endpush
+

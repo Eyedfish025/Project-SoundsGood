@@ -56,7 +56,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070" class="card-img-top" alt="Alongamento dinâmico">
+                    <img src="public\img\Alongamento\principal\dinamico.jpeg" class="card-img-top" alt="Alongamento dinâmico">
                     <a href="/alongamento-Dinamico" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -72,7 +72,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1534251617954-5a9a3b2a4a3d?q=80&w=2070" class="card-img-top" alt="Alongamento Estático">
+                    <img src="public\img\Alongamento\principal\alongamento estatico.jpg" class="card-img-top" alt="Alongamento Estático">
                     <a href="/alongamento-Estatico" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -88,7 +88,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1598266663999-c35882b184a3?q=80&w=1933" class="card-img-top" alt="Alongamento Passivo">
+                    <img src="public\img\Alongamento\principal\alongamento passivo.jpg" class="card-img-top" alt="Alongamento Passivo">
                     <a href="/alongamento-Passivo" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -104,7 +104,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=2070" class="card-img-top" alt="Alongamento Ativo">
+                    <img src="public\img\Alongamento\principal\alongamento ativo.jpg" class="card-img-top" alt="Alongamento Ativo">
                     <a href="/alongamento-Ativo" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
