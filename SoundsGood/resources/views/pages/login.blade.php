@@ -100,7 +100,7 @@
                             <p>Crie sua conta e descubra a tranquilidade</p>
                         </div>
                         
-                        <form id="FMCadastro_Usuario" method ="POST" action="{{route('users.store') }}">
+                        <form id="FMCadastro_Usuario" method ="POST" action="{{ route('users.store') }}">
                             <div class="form-group">
                                 <label for="registerName" class="form-label">
                                     <i class="fas fa-user"></i> Nome Completo

@@ -3,30 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use app\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
     
-    public function register(Request $request)
+    public function store(Request $request)
     {
-        // Validação dos dados
-        $request-> validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|unique:users,email',
-            'password' => 'required|string|confirmed|min:6',
-        ]);
+        $user = $request-> all();
+        $user ['password'] = bcrypt ($request -> password);
+        $user = User::create($user);
 
-        // Criar usuário
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-        ]);
-
-        // Logar automaticamente
         auth::login($user);
 
         // Redirecionar para página inicial após cadastro
-        return redirect()-> route('/index');
+        return redirect('/index');
     }
 }

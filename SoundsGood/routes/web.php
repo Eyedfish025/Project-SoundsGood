@@ -4,8 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\AtividadesController;
 use App\Http\Controllers\authController;
-Route::post('/auth', [authController::class, 'auth'])->name('login.auth');
+use App\Http\Controllers\RegisterController;
 
+Route::resource('user', RegisterController::class);
+Route::post('/auth', [authController::class, 'auth'])->name('login.auth');
+Route::post('/register',[Registercontroller::class, 'store'])->name('login.create');
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/login', [PageController::class, 'login'])->name('login');
