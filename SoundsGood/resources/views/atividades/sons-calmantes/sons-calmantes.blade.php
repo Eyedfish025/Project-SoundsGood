@@ -56,7 +56,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1563720229485-93e425b60827?q=80&w=2070" class="card-img-top" alt="Janela molhada com semáforo">
+                    <img src="public\img\sons\chuva.jpg" class="card-img-top" alt="Janela molhada com semáforo">
                     <a href="/sons-Chuva-Leve" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -72,7 +72,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071" class="card-img-top" alt="Floresta tropical">
+                    <img src="public\img\sons\floresta.jpg" class="card-img-top" alt="Floresta tropical">
                     <a href="/sons-Floresta-Tropical" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -88,7 +88,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723a9ce6890?q=80&w=2070" class="card-img-top" alt="Ondas do mar">
+                    <img src="public\img\sons\mar.jpg" class="card-img-top" alt="Ondas do mar">
                     <a href="/sons-Ondas-Mar" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -104,7 +104,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1542014740373-f73cbe33f6ec?q=80&w=2070"
+                    <img src="public\img\sons\neve.jpg"
                          class="card-img-top" alt="Neve caindo">
                     <a href="/sons-Flocos-Neve" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
@@ -143,3 +143,4 @@
     reveal();
 </script>
 @endpush
+
