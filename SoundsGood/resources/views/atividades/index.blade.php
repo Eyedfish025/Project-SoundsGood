@@ -11,7 +11,7 @@
 <main class="container my-5 pt-5">
 
     {{-- Cabeçalho --}}
-    <header class="text-center my-5 reveal">
+    <header class="text-center my-2 reveal">
         <h1 class="display-4 hero-title">Trabalhe em Você</h1>
         <p class="lead text-white-50 hero-subtitle">
             Temos diversas atividades e aplicações para fazer você descansar e se sentir melhor.

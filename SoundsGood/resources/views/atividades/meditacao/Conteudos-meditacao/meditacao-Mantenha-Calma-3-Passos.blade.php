@@ -18,8 +18,7 @@
 
     <section class="exercise-section reveal">
         <div class="exercise-image-container">
-            <img src="https://images.unsplash.com/photo-1529334972162-914180a36279?q=80&w=870&auto=format&fit=crop"
-                 alt="Ilustração da técnica" id="exerciseImage" class="exercise-image">
+            <img src="https://images.unsplash.com/photo-1529334972162-914180a36279?q=80&w=870&auto=format&fit=crop" alt="Ilustração da técnica" id="exerciseImage" class="exercise-image">
         </div>
         <div class="exercise-info">
             <h2 class="exercise-name" id="exerciseName">Pronto para começar?</h2>
@@ -28,7 +27,7 @@
         <div class="exercise-controls text-center mt-4 d-flex justify-content-center align-items-center gap-2">
             <button class="btn btn-cta" id="startStopBtn">Iniciar</button>
             <button class="btn btn-cta btn-skip" id="skipBtn" style="display: none;">Próximo Passo</button>
-            <a href="{{ route('atividades.index') }}" class="btn btn-back">Voltar</a>
+            <a href="/meditacao" class="btn btn-back">Voltar</a>
         </div>
     </section>
 </main>

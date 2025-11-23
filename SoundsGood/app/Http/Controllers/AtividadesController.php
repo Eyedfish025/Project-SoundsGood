@@ -113,4 +113,28 @@ class AtividadesController extends Controller
         // Procura por: resources/views/atividades/Conteudos-meditacao/meditacao-Mantenha-Calma-3-Passos.blade.php
         return view('atividades.meditacao.Conteudos-meditacao.meditacao-Mantenha-Calma-3-Passos');
     }
+
+    public function sons_Chuva_Leve()
+    {
+        // Procura por: resources/views/atividades/sons-calmantes/Conteudos-sons-calmantes/sons-Chuva-Leve.blade.php
+        return view('atividades.sons-calmantes.Conteudos-sons-calmantes.sons-Chuva-Leve');
+    }
+
+    public function sons_Floresta_Tropical()
+    {
+        // Procura por: resources/views/atividades/sons-calmantes/Conteudos-sons-calmantes/sons-Floresta-Tropical.blade.php
+        return view('atividades.sons-calmantes.Conteudos-sons-calmantes.sons-Floresta-Tropical');
+    }
+
+    public function sons_Ondas_Mar()
+    {
+        // Procura por: resources/views/atividades/sons-calmantes/Conteudos-sons-calmantes/sons-Ondas-Mar.blade.php
+        return view('atividades.sons-calmantes.Conteudos-sons-calmantes.sons-Ondas-Mar');
+    }
+
+    public function sons_Flocos_Neve()
+    {
+        // Procura por: resources/views/atividades/sons-calmantes/Conteudos-sons-calmantes/sons-Flocos-Neve.blade.php
+        return view('atividades.sons-calmantes.Conteudos-sons-calmantes.sons-Flocos-Neve');
+    }
 }

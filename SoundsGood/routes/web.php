@@ -46,3 +46,13 @@ Route::get('/meditacao-Aprenda-Meditar', [AtividadesController::class, 'meditaca
 Route::get('/meditacao-Controle-corpo-alma', [AtividadesController::class, 'meditacao_Controle_corpo_alma'])->name('atividades.meditacao-Controle-corpo-alma');
 
 Route::get('/meditacao-Mantenha-Calma-3-Passos', [AtividadesController::class, 'meditacao_Mantenha_Calma_3_Passos'])->name('atividades.meditacao-Mantenha-Calma-3-Passos');
+
+
+
+Route::get('/sons-Chuva-Leve', [AtividadesController::class, 'sons_Chuva_Leve'])->name('atividades.sons-Chuva-Leve');
+
+Route::get('/sons-Floresta-Tropical', [AtividadesController::class, 'sons_Floresta_Tropical'])->name('atividades.sons-Floresta-Tropical');
+
+Route::get('/sons-Ondas-Mar', [AtividadesController::class, 'sons_Ondas_Mar'])->name('atividades.sons-Ondas-Mar');
+
+Route::get('/sons-Flocos-Neve', [AtividadesController::class, 'sons_Flocos_Neve'])->name('atividades.sons-Flocos-Neve');

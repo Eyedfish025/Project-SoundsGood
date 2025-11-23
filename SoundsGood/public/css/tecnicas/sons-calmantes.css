@@ -1,0 +1,130 @@
+.sound-button-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.sound-label {
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    color: #f0f0f0;
+    text-shadow: 0 2px 10px rgba(162, 134, 215, 0.3);
+}
+.sound-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #6c757d; /* Cor de fundo do botão */
+    background: linear-gradient(135deg, #5559A3 0%, #6b6fb5 100%);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem; /* Tamanho do ícone */
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 25px rgba(85, 89, 163, 0.5);
+}
+.sound-button:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 35px rgba(85, 89, 163, 0.7);
+}
+.sound-button.playing {
+    background: linear-gradient(135deg, #FAA100 0%, #ffc107 100%);
+    box-shadow: 0 8px 30px rgba(250, 161, 0, 0.6);
+    animation: pulse 2s infinite;
+}
+.sound-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Espaçamento entre os ícones */
+    margin-top: 1rem;
+}
+.action-icon {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.action-icon:hover {
+    color: #FAA100;
+    transform: scale(1.2);
+}
+.action-icon.liked {
+    color: #ff6b81; /* Cor para o coração "curtido" */
+    text-shadow: 0 0 15px rgba(255, 107, 129, 0.8);
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.sound-button-add {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px dashed rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.sound-button-add:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #FAA100;
+    color: #FAA100;
+    transform: scale(1.05);
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* Estilos para o Modal de Nomear Som */
+.modal-content.custom-modal-content {
+    background: rgba(39, 32, 83, 0.95);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(162, 134, 215, 0.5);
+    box-shadow: 0 8px 40px rgba(85, 89, 163, 0.5);
+    color: #f0f0f0;
+}
+.custom-modal-content .modal-header, .custom-modal-content .modal-footer {
+    border-color: rgba(162, 134, 215, 0.3);
+}
+.custom-modal-content .modal-title {
+    color: #FAA100;
+    text-shadow: 0 0 10px rgba(250, 161, 0, 0.5);
+}
+
+.btn-back {
+    background: transparent;
+    border: 2px solid rgba(162, 134, 215, 0.5);
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 50px;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background: rgba(162, 134, 215, 0.2);
+    border-color: #A286D7;
+    color: #ffffff !important;
+}
