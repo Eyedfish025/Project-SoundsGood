@@ -58,7 +58,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1506126613408-4e652a27b2de?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pessoa meditando em um ambiente sereno">
+                    <img src="public\img\meditação\guiada.jpg" class="card-img-top" alt="Pessoa meditando em um ambiente sereno">
                     <a href="/meditacao-Guiada" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Meditação Guiada">
                        <i class="fa-solid fa-play"></i>
                     </a>
@@ -74,7 +74,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1532094206412-4b14a4d3353c?q=80&w=1974&auto=format&fit=crop" class="card-img-top" alt="Silhueta de pessoa com fundo cósmico">
+                    <img src="public\img\meditação\corpo e alma.jpg" class="card-img-top" alt="Silhueta de pessoa com fundo cósmico">
                     <a href="/meditacao-Controle-corpo-alma" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Controle corpo e alma">
                        <i class="fa-solid fa-play"></i>
                     </a>
@@ -90,7 +90,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1601779143932-090324b8a45b?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pessoa sentada aprendendo a meditar">
+                    <img src="public\img\meditação\aprenda.jpg" class="card-img-top" alt="Pessoa sentada aprendendo a meditar">
                     <a href="/meditacao-Aprenda-Meditar" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Aprenda a meditar">
                        <i class="fa-solid fa-play"></i>
                     </a>
@@ -106,7 +106,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1597938435279-29c3b943e235?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pedras empilhadas simbolizando equilíbrio">
+                    <img src="public\img\meditação\calma.jpg" class="card-img-top" alt="Pedras empilhadas simbolizando equilíbrio">
                     <a href="/meditacao-Mantenha-Calma-3-Passos" class="btn btn-cta btn-play stretched-link" aria-label="Iniciar Mantenha a calma em 3 passos">
                        <i class="fa-solid fa-play"></i>
                     </a>
@@ -142,3 +142,4 @@
     reveal();
 </script>
 @endpush
+
