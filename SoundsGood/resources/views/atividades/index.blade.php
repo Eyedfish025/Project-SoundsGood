@@ -63,23 +63,11 @@
         {{-- Respiração --}}
         <div class="col-md-6">
             <div class="card activity-card h-100">
-                <img 
-                    src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2120&auto=format&fit=crop"
-                    class="card-img-top" 
-                    alt="Mulher praticando ioga"
-                >
-
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2120&auto=format&fit=crop" class="card-img-top"  alt="Mulher praticando ioga">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Técnicas de Respiração</h5>
-                    <p class="card-text">
-                        Com nossas técnicas de respiração você conseguirá relaxar e manter seus pensamentos em ordem.
-                    </p>
-
-                    <a 
-                        href="/respiracao"
-                        class="btn btn-cta mt-auto align-self-start stretched-link">
-                        Começar <i class="fa-solid fa-arrow-right ms-2"></i>
-                    </a>
+                    <p class="card-text">Com nossas técnicas de respiração você conseguirá relaxar e manter seus pensamentos em ordem.</p>
+                    <a href="/respiracao" class="btn btn-cta mt-auto align-self-start stretched-link">Começar <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -87,24 +75,11 @@
         {{-- Sons calmantes --}}
         <div class="col-md-6">
             <div class="card activity-card h-100">
-                <img 
-                    src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1974&auto=format&fit=crop"
-                    class="card-img-top" 
-                    alt="Cachoeira em meio à natureza"
-                >
-
+                <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1974&auto=format&fit=crop" class="card-img-top" alt="Cachoeira em meio à natureza">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Sons Calmantes</h5>
-                    <p class="card-text">
-                        Nossa seleção de sons naturais e ambientes auxiliam você a relaxar, concentrar-se ou dormir.
-                    </p>
-
-                    <a 
-                        href="/sons-calmantes"
-                        class="btn btn-cta mt-auto align-self-start stretched-link"
-                    >
-                        Ouvir <i class="fa-solid fa-arrow-right ms-2"></i>
-                    </a>
+                    <p class="card-text">Nossa seleção de sons naturais e ambientes auxiliam você a relaxar, concentrar-se ou dormir.</p>
+                    <a href="/sons-calmantes" class="btn btn-cta mt-auto align-self-start stretched-link">Ouvir <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -112,25 +87,11 @@
         {{-- Alongamento --}}
         <div class="col-md-6">
             <div class="card activity-card h-100">
-                <img 
-                    src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=2070&auto=format&fit=crop"
-                    class="card-img-top" 
-                    alt="Mulher se alongando"
-                >
-
+                <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Mulher se alongando">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Alongamento</h5>
-                    <p class="card-text">
-                        Nossa sessão de alongamentos guiados vai te ajudar com o foco em relaxamento corporal
-                        e melhoria da postura.
-                    </p>
-
-                    <a 
-                        href="/alongamento"
-                        class="btn btn-cta mt-auto align-self-start stretched-link"
-                    >
-                        Praticar <i class="fa-solid fa-arrow-right ms-2"></i>
-                    </a>
+                    <p class="card-text">Nossa sessão de alongamentos guiados vai te ajudar com o foco em relaxamento corporal e melhoria da postura.</p>
+                    <a href="/alongamento" class="btn btn-cta mt-auto align-self-start stretched-link">Praticar <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -138,24 +99,11 @@
         {{-- Meditação --}}
         <div class="col-md-6">
             <div class="card activity-card h-100">
-                <img 
-                    src="https://images.unsplash.com/photo-1474418397713-7ede21d49118?q=80&w=2070&auto=format&fit=crop"
-                    class="card-img-top" 
-                    alt="Pessoa meditando ao pôr do sol"
-                >
-
+                <img src="https://images.unsplash.com/photo-1474418397713-7ede21d49118?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Pessoa meditando ao pôr do sol">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Meditação</h5>
-                    <p class="card-text">
-                        Também trazemos sessões de meditação com áudio e narração suave para seu relaxamento mental.
-                    </p>
-
-                    <a 
-                        href="/meditacao"
-                        class="btn btn-cta mt-auto align-self-start stretched-link"
-                    >
-                        Meditar <i class="fa-solid fa-arrow-right ms-2"></i>
-                    </a>
+                    <p class="card-text">Também trazemos sessões de meditação com áudio e narração suave para seu relaxamento mental.</p>
+                    <a href="/meditacao" class="btn btn-cta mt-auto align-self-start stretched-link">Meditar <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>

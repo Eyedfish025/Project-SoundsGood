@@ -1,0 +1,133 @@
+{{-- resources/views/alongamento-ativo.blade.php --}}
+@extends('layouts.app')
+
+@section('title', 'SoundsGood - Alongamento Ativo')
+
+@push('styles')
+<link rel="stylesheet" href="/css/pages/_atividades.css">
+<link rel="stylesheet" href="/css/tecnicas/alongamento.css">
+@endpush
+
+@section('content')
+<main class="container my-5 pt-5">
+    <header class="text-center my-5 reveal">
+        <h1 class="display-4 hero-title">Alongamento Ativo</h1>
+        <p class="lead text-white-50 hero-subtitle">
+            Prepare seu corpo com movimentos dinâmicos que alongam e aquecem os músculos de forma ativa.
+        </p>
+    </header>
+
+    <section class="exercise-section reveal">
+        <div class="exercise-image-container">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=870&auto=format&fit=crop"
+                 alt="Ilustração do exercício" id="exerciseImage" class="exercise-image">
+        </div>
+        <div class="exercise-info">
+            <h2 class="exercise-name" id="exerciseName">Pronto para começar?</h2>
+            <p class="exercise-timer" id="exerciseTimer">--</p>
+        </div>
+        <div class="exercise-controls text-center mt-4 d-flex justify-content-center align-items-center gap-2">
+            <button class="btn btn-cta" id="startStopBtn">Iniciar</button>
+            <button class="btn btn-cta btn-skip" id="skipBtn" style="display: none;">Pular</button>
+            <a href="/alongamento" class="btn btn-back">Voltar</a>
+        </div>
+    </section>
+</main>
+@endsection
+
+@push('scripts')
+<script>
+function reveal() {
+    const reveals = document.querySelectorAll(".reveal");
+    for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        if (elementTop < windowHeight - 100) {
+            reveals[i].classList.add("active");
+        }
+    }
+}
+window.addEventListener("scroll", reveal);
+reveal();
+
+// Alongamento Ativo
+const startStopBtn = document.getElementById('startStopBtn');
+const exerciseNameEl = document.getElementById('exerciseName');
+const exerciseTimerEl = document.getElementById('exerciseTimer');
+const exerciseImageEl = document.getElementById('exerciseImage');
+const skipBtn = document.getElementById('skipBtn');
+
+const exercises = [
+    { name: 'Rotação de Braços', duration: 30, image: 'https://media.tenor.com/dF1I49k12vYAAAAC/arm-circles-exercise.gif' },
+    { name: 'Elevação de Joelhos', duration: 30, image: 'https://i.pinimg.com/originals/2b/2a/1b/2b2a1b2e44b0f0c2e2f7e2b1c0b2e1c2.gif' },
+    { name: 'Estocada Dinâmica', duration: 40, image: 'https://media.tenor.com/i-bSGO6IqEEAAAAC/lunge-exercise.gif' },
+    { name: 'Chute Frontal Alternado', duration: 30, image: 'https://i.pinimg.com/originals/3f/5b/6d/3f5b6d3c4d5b6c7d8e9f0a1b2c3d4e5f.gif' },
+    { name: 'Agachamento com Elevação de Braços', duration: 40, image: 'https://media.tenor.com/i-bSGO6IqEEAAAAC/squat-exercise.gif' }
+];
+
+let isStretching = false;
+let currentExerciseIndex = 0;
+let countdownInterval;
+let exerciseTimeout;
+
+startStopBtn.addEventListener('click', () => {
+    isStretching = !isStretching;
+    if (isStretching) {
+        startStopBtn.textContent = 'Parar';
+        skipBtn.style.display = 'inline-block';
+        startExerciseCycle();
+    } else {
+        stopExerciseCycle();
+    }
+});
+
+skipBtn.addEventListener('click', () => {
+    if (!isStretching) return;
+    clearTimeout(exerciseTimeout);
+    clearInterval(countdownInterval);
+    currentExerciseIndex++;
+    startExerciseCycle();
+});
+
+function startExerciseCycle() {
+    if (!isStretching || currentExerciseIndex >= exercises.length) {
+        stopExerciseCycle('Sessão Finalizada!');
+        return;
+    }
+    const exercise = exercises[currentExerciseIndex];
+    runExercise(exercise, () => {
+        currentExerciseIndex++;
+        startExerciseCycle();
+    });
+}
+
+function stopExerciseCycle(message = 'Pronto para começar?') {
+    clearTimeout(exerciseTimeout);
+    clearInterval(countdownInterval);
+    isStretching = false;
+    currentExerciseIndex = 0;
+    startStopBtn.textContent = 'Iniciar';
+    skipBtn.style.display = 'none';
+    exerciseNameEl.textContent = message;
+    exerciseTimerEl.textContent = '--';
+    exerciseImageEl.src = 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=870&auto=format&fit=crop';
+    exerciseImageEl.alt = 'Ilustração de uma pessoa se preparando para o exercício';
+}
+
+function runExercise(exercise, next) {
+    exerciseNameEl.textContent = exercise.name;
+    exerciseImageEl.src = exercise.image;
+    exerciseImageEl.alt = 'Animação do exercício: ' + exercise.name;
+    let counter = exercise.duration;
+    exerciseTimerEl.textContent = counter;
+
+    countdownInterval = setInterval(() => {
+        counter--;
+        exerciseTimerEl.textContent = counter;
+        if (counter <= 0) clearInterval(countdownInterval);
+    }, 1000);
+
+    exerciseTimeout = setTimeout(next, exercise.duration * 1000);
+}
+</script>
+@endpush

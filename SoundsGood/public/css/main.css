@@ -87,10 +87,7 @@ html {
 @import url("components/_footer.css");
 
 
-/* 3. IMPORTAÇÃO DOS ESTILOS DE PÁGINAS ESPECÍFICAS
-   (Opcional, mas recomendado para organização)
-   -------------------------------------------- */
 @import url("pages/_home.css");
 @import url("pages/_login.css");
 
-/* ... e assim por diante para outras páginas ... */
+@import url("components/_breathing_circle.css");

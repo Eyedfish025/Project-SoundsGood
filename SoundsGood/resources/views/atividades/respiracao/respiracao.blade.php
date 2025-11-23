@@ -59,10 +59,9 @@
             <div class="card activity-card h-100">
                 <div class="card-img-container">
                     <img src="https://images.unsplash.com/photo-1529334972162-914180a36279?q=80&w=2070&auto=format&fit=crop"
-                         class="card-img-top" alt="Pessoa relaxando na cama">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
-                       aria-label="Iniciar Técnica 4-7-8">
-                       <i class="fa-solid fa-play"></i>
+                        class="card-img-top" alt="Pessoa relaxando na cama">
+                    <a href="/respiracao/4-7-8" class="btn btn-cta btn-play stretched-link"aria-label="Iniciar Técnica 4-7-8">
+                    <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body d-flex flex-column">
@@ -80,7 +79,7 @@
                 <div class="card-img-container">
                     <img src="https://images.unsplash.com/photo-1618423691270-0c6a87a63639?q=80&w=2070&auto=format&fit=crop"
                          class="card-img-top" alt="Pessoa com mão na barriga respirando">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
+                    <a href="/respiracao-Diafragmatica" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Diafragmática">
                        <i class="fa-solid fa-play"></i>
                     </a>
@@ -100,7 +99,7 @@
                 <div class="card-img-container">
                     <img src="https://images.unsplash.com/photo-1597969984294-3f7a1f7c1b32?q=80&w=1974&auto=format&fit=crop"
                          class="card-img-top" alt="Mulher praticando pranayama">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
+                    <a href="/respiracao-Alternada-Nasal" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Alternada Nasal">
                        <i class="fa-solid fa-play"></i>
                     </a>
@@ -120,7 +119,7 @@
                 <div class="card-img-container">
                     <img src="https://images.unsplash.com/photo-1591343395399-e835a39d136d?q=80&w=2070&auto=format&fit=crop"
                          class="card-img-top" alt="Formas geométricas simbolizando foco">
-                    <a href="#" class="btn btn-cta btn-play stretched-link"
+                    <a href="/respiracao-Quadrada" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Quadrada">
                        <i class="fa-solid fa-play"></i>
                     </a>

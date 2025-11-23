@@ -56,17 +56,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070"
-                         class="card-img-top" alt="Alongamento dinâmico">
-                    <a href="#" class="btn btn-cta btn-play stretched-link">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070" class="card-img-top" alt="Alongamento dinâmico">
+                    <a href="/alongamento-Dinamico" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Alongamento Dinâmico</h5>
-                    <p class="card-text">
-                        Ideal para aquecer o corpo antes de atividades físicas.
-                    </p>
+                    <p class="card-text">Ideal para aquecer o corpo antes de atividades físicas.</p>
                 </div>
             </div>
         </div>
@@ -75,17 +72,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1534251617954-5a9a3b2a4a3d?q=80&w=2070"
-                         class="card-img-top" alt="Alongamento Estático">
-                    <a href="#" class="btn btn-cta btn-play stretched-link">
+                    <img src="https://images.unsplash.com/photo-1534251617954-5a9a3b2a4a3d?q=80&w=2070" class="card-img-top" alt="Alongamento Estático">
+                    <a href="/alongamento-Estatico" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Alongamento Estático</h5>
-                    <p class="card-text">
-                        Aumente sua flexibilidade com posições mantidas por um tempo.
-                    </p>
+                    <p class="card-text">Aumente sua flexibilidade com posições mantidas por um tempo.</p>
                 </div>
             </div>
         </div>
@@ -94,17 +88,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1598266663999-c35882b184a3?q=80&w=1933"
-                         class="card-img-top" alt="Alongamento Passivo">
-                    <a href="#" class="btn btn-cta btn-play stretched-link">
+                    <img src="https://images.unsplash.com/photo-1598266663999-c35882b184a3?q=80&w=1933" class="card-img-top" alt="Alongamento Passivo">
+                    <a href="/alongamento-Passivo" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Alongamento Passivo</h5>
-                    <p class="card-text">
-                        Relaxe enquanto uma força externa alonga seus músculos.
-                    </p>
+                    <p class="card-text">Relaxe enquanto uma força externa alonga seus músculos.</p>
                 </div>
             </div>
         </div>
@@ -113,17 +104,14 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=2070"
-                         class="card-img-top" alt="Alongamento Ativo">
-                    <a href="#" class="btn btn-cta btn-play stretched-link">
+                    <img src="https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=2070" class="card-img-top" alt="Alongamento Ativo">
+                    <a href="/alongamento-Ativo" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Alongamento Ativo</h5>
-                    <p class="card-text">
-                        Use seus próprios músculos para manter a posição de alongamento.
-                    </p>
+                    <p class="card-text">Use seus próprios músculos para manter a posição de alongamento.</p>
                 </div>
             </div>
         </div>

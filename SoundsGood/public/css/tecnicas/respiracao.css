@@ -1,0 +1,139 @@
+/* Seção de respiração com foco total */
+.breathing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Ocupa a maior parte da altura da tela, descontando o header */
+    min-height: calc(100vh - 250px);
+    perspective: 1000px;
+}
+
+.breathing-section .breathing-controls {
+    margin-top: 2rem;
+}
+
+/* Container do círculo */
+.breathing-circle-container {
+    position: relative;
+    width: 45vh; /* Usa a altura da tela como referência */
+    height: 45vh;
+    max-width: 90vw; /* Garante que não ultrapasse a largura em telas estreitas */
+    max-height: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+/* Contorno pulsante */
+.breathing-circle-outline {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(162, 134, 215, 0.2); /* Cor da borda alinhada ao tema */
+    border-radius: 50%;
+    animation: pulse 4s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.1; }
+    50% { transform: scale(1.1); opacity: 0.2; }
+}
+
+/* Círculo principal interativo */
+.breathing-circle {
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(135deg, #5559A3, #A286D7); /* Gradiente alinhado com os cards */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 40px rgba(162, 134, 215, 0.4), 0 0 80px rgba(85, 89, 163, 0.3), inset 0 0 30px rgba(0,0,0,0.3);
+    transform: scale(0.5); /* Estado inicial (expirado) */
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s ease, background 0.5s ease;
+}
+
+.breathing-circle:hover, .breathing-circle:focus {
+    box-shadow: 0 0 40px rgba(199, 162, 255, 0.6), 0 0 80px rgba(162, 134, 215, 0.4), inset 0 0 30px rgba(0,0,0,0.4);
+    transform: scale(0.55); /* Leve aumento no hover/focus quando parado */
+    outline: none;
+}
+
+/* Animações do ciclo de respiração */
+.breathing-inspire {
+    animation: inspire 4s forwards cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.breathing-hold {
+    animation: hold 7s forwards;
+}
+
+.breathing-expire {
+    animation: expire 8s forwards cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes inspire {
+    from { transform: scale(0.5); }
+    to { transform: scale(1); }
+}
+
+@keyframes hold {
+    from { transform: scale(1); }
+    to { transform: scale(1); }
+}
+
+@keyframes expire {
+    from { transform: scale(1); }
+    to { transform: scale(0.5); }
+}
+
+/* Estilos do texto dentro do círculo */
+.breathing-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+    user-select: none; /* Impede a seleção do texto */
+}
+
+.breathing-instruction {
+    font-weight: 500;
+    font-size: clamp(1.2rem, 3vw, 1.8rem); /* Fonte fluida */
+}
+
+.breathing-timer {
+    font-weight: 300;
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: clamp(2.5rem, 6vw, 4rem); /* Fonte fluida e maior */
+}
+
+/* Botão de voltar */
+.btn-back {
+    background: transparent;
+    border: 2px solid rgba(162, 134, 215, 0.5);
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 50px;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background: rgba(162, 134, 215, 0.2);
+    border-color: #A286D7;
+    color: #ffffff !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .breathing-section {
+        /* Reduz o espaço vertical em telas menores para caber melhor */
+        min-height: calc(100vh - 200px);
+    }
+}
