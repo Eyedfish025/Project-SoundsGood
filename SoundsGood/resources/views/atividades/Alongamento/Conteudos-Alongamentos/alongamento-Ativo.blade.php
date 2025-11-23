@@ -56,11 +56,11 @@ const exerciseImageEl = document.getElementById('exerciseImage');
 const skipBtn = document.getElementById('skipBtn');
 
 const exercises = [
-    { name: 'Rotação de Braços', duration: 30, image: 'https://media.tenor.com/dF1I49k12vYAAAAC/arm-circles-exercise.gif' },
-    { name: 'Elevação de Joelhos', duration: 30, image: 'https://i.pinimg.com/originals/2b/2a/1b/2b2a1b2e44b0f0c2e2f7e2b1c0b2e1c2.gif' },
-    { name: 'Estocada Dinâmica', duration: 40, image: 'https://media.tenor.com/i-bSGO6IqEEAAAAC/lunge-exercise.gif' },
-    { name: 'Chute Frontal Alternado', duration: 30, image: 'https://i.pinimg.com/originals/3f/5b/6d/3f5b6d3c4d5b6c7d8e9f0a1b2c3d4e5f.gif' },
-    { name: 'Agachamento com Elevação de Braços', duration: 40, image: 'https://media.tenor.com/i-bSGO6IqEEAAAAC/squat-exercise.gif' }
+    { name: 'Rotação de Braços', duration: 30, image: 'public\img\Alongamento\alongamento ativo\braço.png' },
+    { name: 'Elevação de Joelhos', duration: 30, image: 'public\img\Alongamento\alongamento ativo\elevação de joelho.png' },
+    { name: 'Estocada Dinâmica', duration: 40, image: 'public\img\Alongamento\alongamento ativo\chute dinamico.png' },
+    { name: 'Chute Frontal Alternado', duration: 30, image: 'public\img\Alongamento\alongamento ativo\chute alternado.png' },
+    { name: 'Agachamento com Elevação de Braços', duration: 40, image: 'public\img\Alongamento\alongamento ativo\agaccha.png' }
 ];
 
 let isStretching = false;
@@ -129,3 +129,4 @@ function runExercise(exercise, next) {
 }
 </script>
 @endpush
+
