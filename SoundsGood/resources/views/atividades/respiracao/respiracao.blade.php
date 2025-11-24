@@ -58,7 +58,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\respiração\respiração1.jpg"
+                    <img src="/img/respiração/respiração1.jpg"
                         class="card-img-top" alt="Pessoa relaxando">
                     <a href="/respiracao/4-7-8" class="btn btn-cta btn-play stretched-link"aria-label="Iniciar Técnica 4-7-8">
                     <i class="fa-solid fa-play"></i>
@@ -77,7 +77,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\respiração\respiração 2.jpg"
+                    <img src="/img/respiração/respiração 2.jpg"
                          class="card-img-top" alt="Pessoa com mão na barriga respirando">
                     <a href="/respiracao-Diafragmatica" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Diafragmática">
@@ -97,7 +97,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\respiração\respiração 3.jpg"
+                    <img src="/img/respiração/respiração 3.jpg"
                          class="card-img-top" alt="Mulher praticando pranayama">
                     <a href="/respiracao-Alternada-Nasal" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Alternada Nasal">
@@ -117,7 +117,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\respiração\respiração 4.jpg"
+                    <img src="/img/respiração/respiração 4.jpg"
                          class="card-img-top" alt="Formas geométricas simbolizando foco">
                     <a href="/respiracao-Quadrada" class="btn btn-cta btn-play stretched-link"
                        aria-label="Iniciar Respiração Quadrada">
