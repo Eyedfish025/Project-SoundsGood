@@ -63,7 +63,7 @@
         {{-- Respiração --}}
         <div class="col-md-6">
             <div class="card activity-card h-100">
-                <img src="/img/principal/respiração.webp"  alt="Mulher praticando ioga">
+                <img src="/img/principal/respiração.webp" class="card-img-top" alt="Mulher praticando ioga">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Técnicas de Respiração</h5>
                     <p class="card-text">Com nossas técnicas de respiração você conseguirá relaxar e manter seus pensamentos em ordem.</p>
