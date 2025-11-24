@@ -88,7 +88,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\Alongamento\principal\alongamento passivo.jpg" class="card-img-top" alt="Alongamento Passivo">
+                    <img src="/img/Alongamento/principal/alongamento passivo.jpg" class="card-img-top" alt="Alongamento Passivo">
                     <a href="/alongamento-Passivo" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -104,7 +104,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\Alongamento\principal\alongamento ativo.jpg" class="card-img-top" alt="Alongamento Ativo">
+                    <img src="/img/Alongamento/principal/alongamento ativo.jpg" class="card-img-top" alt="Alongamento Ativo">
                     <a href="/alongamento-Ativo" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
