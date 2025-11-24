@@ -54,6 +54,7 @@ Com login, preferências podem ser salvas localmente.
 
 * 📦 PHP 8.3 ou superior  
 * 💻 Servidor local como XAMPP, WAMP, Laragon ou o servidor embutido do PHP
+* :tophat: Composer 2.0 ou superior
 ---
 
 
