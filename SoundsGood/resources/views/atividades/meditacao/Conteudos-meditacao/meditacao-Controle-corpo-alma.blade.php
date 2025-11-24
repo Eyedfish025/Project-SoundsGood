@@ -79,27 +79,27 @@
             { 
                 name: 'Passo 1: Sente-se firme, feche os olhos e sinta a energia do seu corpo. Reconheça cada parte de você.', 
                 duration: 30, 
-                image: 'public\img\meditação\controle o corpo\pessoa sentada.jpg' 
+                image: '/img/meditação/controle o corpo/pessoa sentada.jpg' 
             },
             { 
                 name: 'Passo 2: Respire profundamente, sentindo cada inspiração expandir sua alma e cada expiração liberar tensões.', 
                 duration: 60, 
-                image: 'public\img\meditação\controle o corpo\respire firme.jpg' 
+                image: '/img/meditação/controle o corpo/respire firme.jpg' 
             },
             { 
                 name: 'Passo 3: Observe seus pensamentos sem se apegar. Reconheça-os, mas mantenha o controle da sua mente.', 
                 duration: 75, 
-                image: 'public\img\meditação\controle o corpo\obseve seu pensamento.jpg' 
+                image: '/img/meditação/controle o corpo/obseve seu pensamento.jpg' 
             },
             { 
                 name: 'Passo 4: Sinta a harmonia entre corpo e alma. Inspire confiança e poder, expire ansiedade e dúvida.', 
                 duration: 60, 
-                image: 'public\img\meditação\controle o corpo\sinta a harmonia.jpg' 
+                image: '/img/meditação/controle o corpo/sinta a harmonia.jpg' 
             },
             { 
                 name: 'Final: Abra os olhos lentamente. Leve este controle para suas ações e pensamentos durante o dia.', 
                 duration: 20, 
-                image: 'public\img\meditação\aprenda a meditar\parabens.jpg' 
+                image: '/img/meditação/aprenda a meditar/parabens.jpg' 
             }
         ];
 
