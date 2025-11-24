@@ -58,11 +58,11 @@ const exerciseImageEl = document.getElementById('exerciseImage');
 const skipBtn = document.getElementById('skipBtn');
 
 const exercises = [
-    { name: 'Alongamento de Pescoço Assistido', duration: 25, image: 'public\img\Alongamento\alongamento passivo\pescoço.jpeg' },
-    { name: 'Alongamento de Ombros com Apoio', duration: 25, image: 'public\img\Alongamento\alongamento passivo\ombro.jpeg' },
-    { name: 'Alongamento de Quadríceps Passivo', duration: 30, image: 'public\img\Alongamento\alongamento passivo\quadricipes.jpeg' },
-    { name: 'Alongamento de Panturrilhas Passivo', duration: 30, image: 'public\img\Alongamento\alongamento passivo\panturilha.jpeg' },
-    { name: 'Alongamento de Costas com Suporte', duration: 35, image: 'public\img\Alongamento\alongamento passivo\costas.jpeg' }
+    { name: 'Alongamento de Pescoço Assistido', duration: 25, image: '/img/Alongamento/alongamento passivo/pescoço.jpeg' },
+    { name: 'Alongamento de Ombros com Apoio', duration: 25, image: '/img/Alongamento/alongamento passivo/ombro.jpeg' },
+    { name: 'Alongamento de Quadríceps Passivo', duration: 30, image: '/img/Alongamento/alongamento passivo/quadricipes.jpeg' },
+    { name: 'Alongamento de Panturrilhas Passivo', duration: 30, image: '/img/Alongamento/alongamento passivo/panturilha.jpeg' },
+    { name: 'Alongamento de Costas com Suporte', duration: 35, image: '/img/Alongamento/alongamento passivo/costas.jpeg' }
 ];
 
 let isStretching = false;
