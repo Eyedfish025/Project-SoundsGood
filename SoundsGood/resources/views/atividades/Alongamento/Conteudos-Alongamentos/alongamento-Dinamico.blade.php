@@ -57,11 +57,11 @@
     const skipBtn = document.getElementById('skipBtn');
 
     const exercises = [
-        { name: 'Rotação de Tronco', duration: 30, image: 'public\img\Alongamento\alongamento dinamico\coluna.jpeg' },
-        { name: 'Círculos com os Braços', duration: 30, image: 'public\img\Alongamento\alongamento dinamico\rotação de braços.jpeg' },
-        { name: 'Balanço de Pernas (Frente)', duration: 30, image: 'public\img\Alongamento\alongamento dinamico\chute.jpeg' },
-        { name: 'Afundo com Rotação', duration: 40, image: 'public\img\Alongamento\alongamento dinamico\afundo.jpeg' },
-        { name: 'Agachamento', duration: 40, image: 'public\img\Alongamento\alongamento dinamico\agachamento.jpeg' }
+        { name: 'Rotação de Tronco', duration: 30, image: '/img/Alongamento/alongamento dinamico/coluna.jpeg' },
+        { name: 'Círculos com os Braços', duration: 30, image: '/img/Alongamento/alongamento dinamico/rotação de braços.jpeg' },
+        { name: 'Balanço de Pernas (Frente)', duration: 30, image: '/img/Alongamento/alongamento dinamico/chute.jpeg' },
+        { name: 'Afundo com Rotação', duration: 40, image: '/img/Alongamento/alongamento dinamico/afundo.jpeg' },
+        { name: 'Agachamento', duration: 40, image: '/img/Alongamento/alongamento dinamico/agachamento.jpeg' }
     ];
 
     let isStretching = false;
