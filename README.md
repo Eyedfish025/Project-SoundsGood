@@ -82,3 +82,10 @@ Basta inserir o projeto em um servidor PHP e acessar o ponto de entrada definido
 * Relatórios e recomendações personalizadas
 * Estatísticas de bem-estar e uso
 
+## 🧠Alunos Membros
+ * Jonathan Gustavo Gomes dos Santos
+ * João Miguel Amaral
+ * Gabriel Oliveira do Prado
+ * Carlos Henrique Albuquerque Borges
+ * Marcelo Henrique J. Justino da Silva
+ * Pedro Henrique Canto
