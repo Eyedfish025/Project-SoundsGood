@@ -52,22 +52,22 @@
 <!-- Áudios -->
 <!-- Som Flocos 1 -->
 <audio id="audio-Flocos 1" loop>
-    <source src="audios/Sons-Calmantes/Flocos-Neve/" type="audio/mpeg">
+    <source src="audios/Sons-Calmantes/Flocos-Neve/Flocos-Neve-1.mpeg" type="audio/mpeg">
 </audio>
 <audio id="audio-Flocos 2" loop>
-    <source src="audios/Sons-Calmantes/Flocos-Neve/" type="audio/mpeg">
+    <source src="audios/Sons-Calmantes/Flocos-Neve/Flocos-Neve-2.mpeg" type="audio/mpeg">
 </audio>
 <audio id="audio-Flocos 3" loop>
-    <source src="audios/Sons-Calmantes/Flocos-Neve/" type="audio/mpeg">
+    <source src="audios/Sons-Calmantes/Flocos-Neve/Flocos-Neve-3.mpeg" type="audio/mpeg">
 </audio>
 <audio id="audio-Flocos 4" loop>
-    <source src="audios/Sons-Calmantes/Flocos-Neve/" type="audio/mpeg">
+    <source src="audios/Sons-Calmantes/Flocos-Neve/Flocos-Neve-4.mpeg" type="audio/mpeg">
 </audio>
 <audio id="audio-Flocos 5" loop>
-    <source src="audios/Sons-Calmantes/Flocos-Neve/" type="audio/mpeg">
+    <source src="audios/Sons-Calmantes/Flocos-Neve/Flocos-Neve-5.mpeg" type="audio/mpeg">
 </audio>
 <audio id="audio-Flocos 6" loop>
-    <source src="audios/Sons-Calmantes/Flocos-Neve/" type="audio/mpeg">
+    <source src="audios/Sons-Calmantes/Flocos-Neve/Flocos-Neve-6.mpeg" type="audio/mpeg">
 </audio>
 
 
