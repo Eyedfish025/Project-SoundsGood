@@ -19,7 +19,7 @@
 
     <section class="exercise-section reveal">
         <div class="exercise-image-container">
-            <img src="public\img\meditação\aprenda.jpg"
+            <img src="/img/meditação/aprenda.jpg"
                  alt="Ilustração de meditação" id="exerciseImage" class="exercise-image">
         </div>
         <div class="exercise-info">
@@ -86,11 +86,11 @@
         }
 
         const meditationSteps = [
-            { name: 'Passo 1: Encontre uma posição confortável, com a coluna ereta, e feche os olhos suavemente.', duration: 30, image: 'public\img\meditação\aprenda a meditar\olhos fechados.jpg' },
-            { name: 'Passo 2: Leve sua atenção para a respiração. Apenas observe o ar entrando e saindo, sem forçar.', duration: 60, image: 'public\img\meditação\aprenda a meditar\ar.jpg' },
-            { name: 'Passo 3: Sua mente vai se distrair. É normal. Quando perceber, gentilmente traga o foco de volta para a respiração.', duration: 75, image: 'public\img\meditação\aprenda a meditar\mente distraida.jpg' },
-            { name: 'Passo 4: Permaneça nesse ciclo de observar a respiração e retornar o foco sempre que se distrair.', duration: 60, image: 'public\img\meditação\aprenda a meditar\CICLO.jpg' },
-            { name: 'Parabéns por completar sua prática. Abra os olhos lentamente quando estiver pronto.', duration: 20, image: 'public\img\meditação\aprenda a meditar\parabens.jpg' }
+            { name: 'Passo 1: Encontre uma posição confortável, com a coluna ereta, e feche os olhos suavemente.', duration: 30, image: '/img/meditação/aprenda a meditar/olhos fechados.jpg' },
+            { name: 'Passo 2: Leve sua atenção para a respiração. Apenas observe o ar entrando e saindo, sem forçar.', duration: 60, image: '/img/meditação/aprenda a meditar/ar.jpg' },
+            { name: 'Passo 3: Sua mente vai se distrair. É normal. Quando perceber, gentilmente traga o foco de volta para a respiração.', duration: 75, image: '/img/meditação/aprenda a meditar/mente distraida.jpg' },
+            { name: 'Passo 4: Permaneça nesse ciclo de observar a respiração e retornar o foco sempre que se distrair.', duration: 60, image: '/img/meditação/aprenda a meditar/CICLO.jpg' },
+            { name: 'Parabéns por completar sua prática. Abra os olhos lentamente quando estiver pronto.', duration: 20, image: '/img/meditação/aprenda a meditar/parabens.jpg' }
         ];
 
         let isMeditating = false;
